@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>書籍介紹</title>
+    <style>
+        /* 全域樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* 頂部橫幅樣式 */
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-image: url('./img/banner.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* 頂部選單樣式 */
+        .navbar {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* 整體容器設定 */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* 左右兩個 DIV 的共同樣式 */
+        .book-div {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 書籍標題樣式 */
+        .book-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #666;
+            padding-bottom: 10px;
+        }
+
+        /* 書籍內容樣式 */
+        .book-content {
+            line-height: 1.6;
+            color: #444;
+        }
+
+        /* 書籍圖片樣式 */
+        .book-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 頂部橫幅 -->
+    <div class="banner"></div>
+
+    <!-- 頂部選單 -->
+    <div class="navbar">
+        <a href="index.html">首頁</a>
+        <a href="food.html">食物介紹</a>
+        <a href="ox.html">牛的世界</a>
+    </div>
+
+    <!-- 主要內容區 -->
+    <div class="container">
+        <!-- 左側書籍介紹 -->
+        <div class="book-div">
+            <h2 class="book-title">哈利波特：神秘的魔法石</h2>
+            <img src="./img/Hp1tw.jpg" class="book-image">
+            <div class="book-content">
+                <p>《哈利波特：神秘的魔法石》是J.K.羅琳的奇幻文學作品，講述了一個年輕巫師的冒險故事。在11歲生日時，哈利發現自己是一個巫師，並被錄取到霍格華茲魔法學校就讀。</p>
+                <p>在學校裡，他結識了終身摯友榮恩和妙麗，一同揭開學校裡的神秘面紗，並與邪惡的佛地魔展開對抗。這是一個關於友情、勇氣和成長的精彩故事。</p>
+            </div>
+        </div>
+
+        <!-- 右側書籍介紹 -->
+        <div class="book-div">
+            <h2 class="book-title">魔戒首部曲：魔戒現身</h2>
+            <img src="./img/Hp2tw.jpg" alt="魔戒封面" class="book-image">
+            <div class="book-content">
+                <p>《魔戒》是托爾金創作的史詩奇幻小說，故事從霍比特人佛羅多繼承了一枚神秘戒指開始。這枚戒指是由邪惡的魔王索倫所打造，具有強大的魔力。</p>
+                <p>在甘道夫的指引下，佛
